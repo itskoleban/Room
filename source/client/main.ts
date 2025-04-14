@@ -14,7 +14,7 @@ HaxballJS().then((HBInit) => {
 
 	room.setTimeLimit(4);
 	room.setScoreLimit(3);
-	room.setTeamsLock(false);
+	room.setTeamsLock(true);
 
 	include.loadStadium("1s", false, room);
 	include.loadHandler(room, "events");
