@@ -1,0 +1,24 @@
+{
+	"name": "@haxball/room",
+	"version": "1.0.0",
+	"description": "haxball",
+	"repository": {
+		"type": "git",
+		"url": "a"
+	},
+	"license": "ISC",
+	"author": "itskoleban",
+	"type": "commonjs",
+	"main": "dist/client/main.js",
+	"scripts": {
+		"start": "tsc && node .",
+		"dev": "cls && npm run start"
+	},
+	"devDependencies": {
+		"@types/node": "^22.14.1",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"haxball.js": "^3.0.0"
+	}
+}
