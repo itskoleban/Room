@@ -17,5 +17,5 @@ HaxballJS().then((HBInit) => {
 	room.setTeamsLock(false);
 
 	include.loadStadium("1s", false, room);
-	include.loadEvents(room);
+	include.loadHandler(room, "events");
 });
